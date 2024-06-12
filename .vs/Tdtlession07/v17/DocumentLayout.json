@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|c:\\users\\computer\\desktop\\06\\tdtlession07\\tdtlession07\\controllers\\tdtkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|solutionrelative:tdtlession07\\controllers\\tdtkhoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|c:\\users\\computer\\desktop\\06\\tdtlession07\\tdtlession07\\views\\tdtkhoas\\tdtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|solutionrelative:tdtlession07\\views\\tdtkhoas\\tdtindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|c:\\users\\computer\\desktop\\06\\tdtlession07\\tdtlession07\\views\\tdtkhoas\\tdtedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|solutionrelative:tdtlession07\\views\\tdtkhoas\\tdtedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|c:\\users\\computer\\desktop\\06\\tdtlession07\\tdtlession07\\views\\tdtkhoas\\tdtdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|solutionrelative:tdtlession07\\views\\tdtkhoas\\tdtdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|c:\\users\\computer\\desktop\\06\\tdtlession07\\tdtlession07\\views\\tdtkhoas\\tdtdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|solutionrelative:tdtlession07\\views\\tdtkhoas\\tdtdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|c:\\users\\computer\\desktop\\06\\tdtlession07\\tdtlession07\\views\\tdtkhoas\\tdtcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|solutionrelative:tdtlession07\\views\\tdtkhoas\\tdtcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|c:\\users\\computer\\desktop\\06\\tdtlession07\\tdtlession07\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|solutionrelative:tdtlession07\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|c:\\users\\computer\\desktop\\06\\tdtlession07\\tdtlession07\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|solutionrelative:tdtlession07\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|c:\\users\\computer\\desktop\\06\\tdtlession07\\tdtlession07\\models\\tdtmodel_2210900134.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A313EDA0-9560-46FF-BC53-4A99ECDE0780}|Tdtlession07\\Tdtlession07.csproj|solutionrelative:tdtlession07\\models\\tdtmodel_2210900134.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TdtIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\TdtKhoas\\TdtIndex.cshtml",
+              "RelativeDocumentMoniker": "Tdtlession07\\Views\\TdtKhoas\\TdtIndex.cshtml",
+              "ToolTip": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\TdtKhoas\\TdtIndex.cshtml",
+              "RelativeToolTip": "Tdtlession07\\Views\\TdtKhoas\\TdtIndex.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAB8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:34:45.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TdtDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\TdtKhoas\\TdtDetails.cshtml",
+              "RelativeDocumentMoniker": "Tdtlession07\\Views\\TdtKhoas\\TdtDetails.cshtml",
+              "ToolTip": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\TdtKhoas\\TdtDetails.cshtml",
+              "RelativeToolTip": "Tdtlession07\\Views\\TdtKhoas\\TdtDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:34:33.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TdtDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\TdtKhoas\\TdtDelete.cshtml",
+              "RelativeDocumentMoniker": "Tdtlession07\\Views\\TdtKhoas\\TdtDelete.cshtml",
+              "ToolTip": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\TdtKhoas\\TdtDelete.cshtml",
+              "RelativeToolTip": "Tdtlession07\\Views\\TdtKhoas\\TdtDelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:34:26.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TdtEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\TdtKhoas\\TdtEdit.cshtml",
+              "RelativeDocumentMoniker": "Tdtlession07\\Views\\TdtKhoas\\TdtEdit.cshtml",
+              "ToolTip": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\TdtKhoas\\TdtEdit.cshtml",
+              "RelativeToolTip": "Tdtlession07\\Views\\TdtKhoas\\TdtEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:32:48.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TdtCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\TdtKhoas\\TdtCreate.cshtml",
+              "RelativeDocumentMoniker": "Tdtlession07\\Views\\TdtKhoas\\TdtCreate.cshtml",
+              "ToolTip": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\TdtKhoas\\TdtCreate.cshtml",
+              "RelativeToolTip": "Tdtlession07\\Views\\TdtKhoas\\TdtCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:24:08.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TdtKhoasController.cs",
+              "DocumentMoniker": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Controllers\\TdtKhoasController.cs",
+              "RelativeDocumentMoniker": "Tdtlession07\\Controllers\\TdtKhoasController.cs",
+              "ToolTip": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Controllers\\TdtKhoasController.cs",
+              "RelativeToolTip": "Tdtlession07\\Controllers\\TdtKhoasController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAqwHEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T04:23:06.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Tdtlession07\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Tdtlession07\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:10:52.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Tdtlession07\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Tdtlession07\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:09:32.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "tdtmodel_2210900134.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Models\\tdtmodel_2210900134.edmx",
+              "RelativeDocumentMoniker": "Tdtlession07\\Models\\tdtmodel_2210900134.edmx",
+              "ToolTip": "C:\\Users\\COMPUTER\\Desktop\\06\\Tdtlession07\\Tdtlession07\\Models\\tdtmodel_2210900134.edmx [Diagram1]",
+              "RelativeToolTip": "Tdtlession07\\Models\\tdtmodel_2210900134.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-12T03:57:25.175Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

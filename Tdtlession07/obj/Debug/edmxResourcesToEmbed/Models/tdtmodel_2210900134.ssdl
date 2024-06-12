@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TDTaspModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TdtKhoa">
+    <Key>
+      <PropertyRef Name="TdtMaKH" />
+    </Key>
+    <Property Name="TdtMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="TdtTenKH" Type="nchar" MaxLength="50" />
+    <Property Name="TdtTrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="tdtSinhVien">
+    <Key>
+      <PropertyRef Name="TdtMaSV" />
+    </Key>
+    <Property Name="TdtMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TdtHoSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="TdtTenSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="TdtNgaySinh" Type="date" />
+    <Property Name="TdtPhai" Type="bit" />
+    <Property Name="TdtPhone" Type="nchar" MaxLength="10" />
+    <Property Name="TdtEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="TdtMaKH" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_tdtSinhVien_TdtKhoa">
+    <End Role="TdtKhoa" Type="Self.TdtKhoa" Multiplicity="0..1" />
+    <End Role="tdtSinhVien" Type="Self.tdtSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TdtKhoa">
+        <PropertyRef Name="TdtMaKH" />
+      </Principal>
+      <Dependent Role="tdtSinhVien">
+        <PropertyRef Name="TdtMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TDTaspModelStoreContainer">
+    <EntitySet Name="TdtKhoa" EntityType="Self.TdtKhoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tdtSinhVien" EntityType="Self.tdtSinhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_tdtSinhVien_TdtKhoa" Association="Self.FK_tdtSinhVien_TdtKhoa">
+      <End Role="TdtKhoa" EntitySet="TdtKhoa" />
+      <End Role="tdtSinhVien" EntitySet="tdtSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

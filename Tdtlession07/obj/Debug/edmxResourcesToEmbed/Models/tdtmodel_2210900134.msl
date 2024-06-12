@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TDTaspModelStoreContainer" CdmEntityContainer="TDTaspEntities1">
+    <EntitySetMapping Name="TdtKhoa">
+      <EntityTypeMapping TypeName="TDTaspModel.TdtKhoa">
+        <MappingFragment StoreEntitySet="TdtKhoa">
+          <ScalarProperty Name="TdtMaKH" ColumnName="TdtMaKH" />
+          <ScalarProperty Name="TdtTenKH" ColumnName="TdtTenKH" />
+          <ScalarProperty Name="TdtTrangThai" ColumnName="TdtTrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tdtSinhVien">
+      <EntityTypeMapping TypeName="TDTaspModel.tdtSinhVien">
+        <MappingFragment StoreEntitySet="tdtSinhVien">
+          <ScalarProperty Name="TdtMaSV" ColumnName="TdtMaSV" />
+          <ScalarProperty Name="TdtHoSV" ColumnName="TdtHoSV" />
+          <ScalarProperty Name="TdtTenSV" ColumnName="TdtTenSV" />
+          <ScalarProperty Name="TdtNgaySinh" ColumnName="TdtNgaySinh" />
+          <ScalarProperty Name="TdtPhai" ColumnName="TdtPhai" />
+          <ScalarProperty Name="TdtPhone" ColumnName="TdtPhone" />
+          <ScalarProperty Name="TdtEmail" ColumnName="TdtEmail" />
+          <ScalarProperty Name="TdtMaKH" ColumnName="TdtMaKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

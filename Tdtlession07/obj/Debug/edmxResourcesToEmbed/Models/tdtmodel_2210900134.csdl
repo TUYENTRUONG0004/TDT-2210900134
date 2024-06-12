@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TDTaspModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TdtKhoa">
+    <Key>
+      <PropertyRef Name="TdtMaKH" />
+    </Key>
+    <Property Name="TdtMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="TdtTenKH" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="TdtTrangThai" Type="Boolean" />
+    <NavigationProperty Name="tdtSinhVien" Relationship="Self.FK_tdtSinhVien_TdtKhoa" FromRole="TdtKhoa" ToRole="tdtSinhVien" />
+  </EntityType>
+  <EntityType Name="tdtSinhVien">
+    <Key>
+      <PropertyRef Name="TdtMaSV" />
+    </Key>
+    <Property Name="TdtMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TdtHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TdtTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TdtNgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="TdtPhai" Type="Boolean" />
+    <Property Name="TdtPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="TdtEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TdtMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="TdtKhoa" Relationship="Self.FK_tdtSinhVien_TdtKhoa" FromRole="tdtSinhVien" ToRole="TdtKhoa" />
+  </EntityType>
+  <Association Name="FK_tdtSinhVien_TdtKhoa">
+    <End Role="TdtKhoa" Type="Self.TdtKhoa" Multiplicity="0..1" />
+    <End Role="tdtSinhVien" Type="Self.tdtSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TdtKhoa">
+        <PropertyRef Name="TdtMaKH" />
+      </Principal>
+      <Dependent Role="tdtSinhVien">
+        <PropertyRef Name="TdtMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TDTaspEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TdtKhoa" EntityType="Self.TdtKhoa" />
+    <EntitySet Name="tdtSinhVien" EntityType="Self.tdtSinhVien" />
+    <AssociationSet Name="FK_tdtSinhVien_TdtKhoa" Association="Self.FK_tdtSinhVien_TdtKhoa">
+      <End Role="TdtKhoa" EntitySet="TdtKhoa" />
+      <End Role="tdtSinhVien" EntitySet="tdtSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
